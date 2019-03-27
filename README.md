@@ -8,8 +8,8 @@ How to create a custom notification in windows
 
 # Features  
 
-- .Communication between 2 windows from application
-- .Adding or modifying CSS styles,to change the look 
+- Communication between 2 windows from application
+- Adding or modifying CSS styles,to change the look 
 
 
 
