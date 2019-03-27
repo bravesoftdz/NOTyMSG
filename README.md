@@ -1,15 +1,15 @@
 # NOTyMSG
 How to create a custom notification in windows
-![](NOTyMSG.png) 
+![](NOTyMSG_.png) 
 
 ## Built With
--Standard 
+-Using only standard component
 
 
 # Features  
 
-- .
-- .
+- .Communication between 2 windows from application
+- .Adding or modifying CSS styles,to change the look 
 
 
 
@@ -41,10 +41,12 @@ freely, subject to the following restrictions:
 | File | Contents | 
 | --- | --- |
 | .gitignore | Git ignores the files in this file |
-| Base.pas | main view of the programme |
-| MainRecieve.pas | MainRecieve of the programme |
-| MainSender.pas | MainSender of the programme |
-| NewUser.pas | NewUser view of the programme |
-| NOTyMSG.dpk | The compiler project file |
-| NOTyMSG.dproj | The MSBUILD project file |
+| MainRecieve.pas | Main Reciever of the programme |
+| MainSender.pas | Main Sender of the programme |
+| Uscript.pas | Unit script of the programme |
+| uresApp.pas | Unit of resource string |
+| NOTyMSG.dpk | The compiler project NOTyMSG|
+| NOTyMSG.dproj | The MSBUILD project NOTyMSG|
+| NOTySEND.dpk | The compiler project NOTyMSG|
+| NOTySEND.dproj | The MSBUILD project NOTyMSG|
 | README.md | The readme for this project |
