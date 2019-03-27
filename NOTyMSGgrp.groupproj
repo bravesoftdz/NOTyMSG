@@ -1,9 +1,9 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <ProjectGuid>{2F3E582E-5166-40B6-B4B7-318232FF28E2}</ProjectGuid>
+        <ProjectGuid>{CF08C228-8C1B-42A1-9942-1CF1C8C9D833}</ProjectGuid>
     </PropertyGroup>
     <ItemGroup>
-        <Projects Include="NOTySENDER\NOTySEND.dproj">
+        <Projects Include="NOTySEND\NOTySEND.dproj">
             <Dependencies/>
         </Projects>
         <Projects Include="NOTyMSG\NOTyMSG.dproj">
@@ -18,13 +18,13 @@
         </BorlandProject>
     </ProjectExtensions>
     <Target Name="NOTySEND">
-        <MSBuild Projects="NOTySENDER\NOTySEND.dproj"/>
+        <MSBuild Projects="NOTySEND\NOTySEND.dproj"/>
     </Target>
     <Target Name="NOTySEND:Clean">
-        <MSBuild Projects="NOTySENDER\NOTySEND.dproj" Targets="Clean"/>
+        <MSBuild Projects="NOTySEND\NOTySEND.dproj" Targets="Clean"/>
     </Target>
     <Target Name="NOTySEND:Make">
-        <MSBuild Projects="NOTySENDER\NOTySEND.dproj" Targets="Make"/>
+        <MSBuild Projects="NOTySEND\NOTySEND.dproj" Targets="Make"/>
     </Target>
     <Target Name="NOTyMSG">
         <MSBuild Projects="NOTyMSG\NOTyMSG.dproj"/>
